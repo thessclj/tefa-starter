@@ -7,8 +7,22 @@ on basic clojure programming concepts.
 
 ## Usage
 
-Try to implement the functions that
-have empty bodies. Check the unit tests for guidance.
+Clone the project.
+
+Make sure you have a jdk installed, a [leiningen](https://leiningen.org/)
+set up, and a working editor with clojure support.
+
+If you are new to clojure you can check
+[this blog post](https://kongeor.github.io/posts/2016-10-08-getting-started-with-clojure-and-lighttable/)
+on how to set things up.
+
+From the project root run `lein test-refresh`. You should have 0 zero tests running.
+
+Uncomment (remove the `#_`) from the first test in `core_test.clj` and try to implement
+the corresponding function. When you do, uncomment the second test.
+
+Loop.
+
 
 ## License
 
